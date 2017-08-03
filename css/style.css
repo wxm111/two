@@ -1,0 +1,80 @@
+@import url(reset.css);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: 18px; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .wrap header {
+    width: 100%;
+    color: #fff;
+    height: .4rem;
+    line-height: .4rem;
+    display: flex;
+    justify-content: space-between;
+    background: #000; }
+    .wrap header a {
+      color: #fff; }
+
+section {
+  width: 100%;
+  flex: 1;
+  background: rgba(0, 0, 0, 0.6); }
+  section .big {
+    width: 100%;
+    height: 100%; }
+    section .big .small {
+      width: 90%;
+      height: 5rem;
+      background: #fff;
+      border-radius: 10px;
+      margin-left: 5%; }
+      section .big .small button {
+        width: 70%;
+        height: .4rem;
+        background: green;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        margin: .5rem .4rem; }
+      section .big .small p {
+        width: 100%;
+        position: relative;
+        margin-left: 6%; }
+        section .big .small p input {
+          width: 80%;
+          border: none;
+          border-bottom: 1px solid #ccc;
+          height: .5rem;
+          padding-left: .5rem; }
+        section .big .small p img {
+          width: .2rem;
+          height: .25rem;
+          position: absolute;
+          left: 4%;
+          top: .1rem; }
+      section .big .small .icon {
+        width: 1.3rem;
+        height: .6rem;
+        margin: .4rem auto; }
+        section .big .small .icon img {
+          width: 100%;
+          height: 100%; }
+      section .big .small h2 {
+        text-align: center;
+        line-height: .6rem; }
+
+/*# sourceMappingURL=style.css.map */
